@@ -1,0 +1,68 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+Cargo.toml.orig
+.*/
+# Rust byproducts
+*.rlib
+*.d
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.obj
+*.o
+*.a
+
+# Rust test output
+/coverage/
+*.profraw
+*.profdata
+
+# Rust IDEs
+/.idea/
+/.vscode/
+/*.iml
+
+# Rust tools
+/.cargo/
+/rustfmt.toml
+/clippy.toml
+
+# Typescript
+node_modules/
+dist/
+build/
+lib/
+tmp/
+temp/
+*.tsbuildinfo
+
+# Typescript byproducts
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Typescript IDEs
+/.vscode/
+/.idea/
+
+# Typescript tools
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+/coverage/
+*.log
