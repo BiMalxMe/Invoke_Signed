@@ -15,7 +15,7 @@ Cargo.toml.orig
 *.obj
 *.o
 *.a
-
+!*.so
 # Rust test output
 /coverage/
 *.profraw
