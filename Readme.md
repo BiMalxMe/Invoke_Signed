@@ -1,0 +1,1 @@
+Hey there this is process if creating a account signing by program instead of PDA itself.
